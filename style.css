@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    text-shadow: 8px 2px 5px grey;
+
+    font-weight: bolder;
+    color: white;
+
+}
+.main-container{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    height: 200px;
+    width: 100%;
+}
+.style{
+    height: 140px;
+    width: 140px;
+    margin: auto 0px;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 8px 2px 5px grey;
+}
+.style>div{
+    height: 49%;
+    width: 100%;
+}
+.days{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    font-size: 1em;
+    color: gold;
+
+}
+#days{
+    position:absolute;
+    left: 15px;
+    top: 0px;
+    font-weight: bolder;
+    font-size: 7em;
+    color: #d2d0d0;
+
+}
+.hours{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    font-size: 1em;
+    color: gold;
+
+}
+#hours{
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    font-weight: bolder;
+    font-size: 7em;
+    color: #d2d0d0;
+
+
+}
+.minutes{
+    position: absolute;
+    top: 120px;
+    left: 45px;
+    font-size: 1em;
+    color: gold;
+
+}
+#minutes{
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    font-weight: bolder;
+    font-size: 7em;
+    color: #d2d0d0;
+
+
+}
+.seconds{
+    position: absolute;
+    top: 120px;
+    left: 45px;
+    font-size: 1em;  
+    color: gold;
+
+}
+#seconds{
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    font-weight: bolder;
+    font-size: 7em;
+    color: #d2d0d0;
+}
+.name{
+    text-align: center; 
+    position: absolute; 
+    top: 350px;
+}
+@media screen and (max-width: 438px) {
+    .name{
+        top: 500px;
+    }
+}
+@media screen and (max-width: 321px) {
+    .name{
+        top: 850px;
+    }
+}
